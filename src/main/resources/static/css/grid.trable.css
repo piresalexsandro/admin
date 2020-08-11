@@ -1,0 +1,72 @@
+/**************************************************************************************************************/
+/* Grids v 2.1 */
+
+
+.mGrid1 { width: 100%; 
+         background-color: #fff; 
+         margin: 5px 0 10px 0; 
+         border: solid 0px #525252; 
+         border-collapse:collapse; 
+         font-family: "Roboto", "Arial";
+         font-size:11px; }
+
+.mGrid1 tr:hover{background-color:#d0ecfb;}
+
+.mGrid1 td { padding: 3px; border: solid 1px #E4E4E4; color: #000000; height: 5px;}
+
+.mGrid1 a, .mGrid a:visited { color: #0066CC; text-decoration: underline; font-size:11px; 
+                             font-family: "Roboto", "Arial";}
+
+.mGrid1 a:hover { color: #032359; text-decoration: underline; font-size:11px; 
+                 font-family: "Roboto", "Arial";}
+
+
+/* Header */
+.mGrid1 th { padding: 4px 2px; 
+            color: #FFF;
+            background: #000000; 
+            font-size: 8pt;
+            font-weight: normal;
+            height: 7px;
+            font-family: "Roboto", "Arial";
+            border: solid 1px #E4E4E4;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#032359endColorstr='#032359'); /* for IE */
+            background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#032359)); /* for webkit browsers */
+            background: -moz-linear-gradient(top,  #FFF,  #032359); /* for firefox 3.6+ */
+            padding: 0px 3px 0px  3px;
+          }
+
+.mGrid1 .alt { background: #fcfcfc; height: 5px; }
+
+.mGrid1 .pgr { padding: 4px 2px; 
+            color: #232323;
+            background: #032359; 
+            font-size: 9pt;   
+            height: 7px;
+            font-family: "Roboto", "Arial";
+            border: solid 1px #E4E4E4;                                  
+            text-align:center;  
+          }
+          
+.mGrid1 .pgr table { margin:0 auto 0 auto;}
+
+.mGrid1 .pgr td { padding: 3px 3px 3px 3px; text-align:center; text-decoration: none; width: 25px; font-weight: bold; color: #D3D3D3}  
+
+.mGrid1 .pgr a { text-decoration: underline; color: #232323; padding: 3px 3px 3px 3px; font-weight: normal; font-size: 10pt;}
+
+.mGrid1 .pgr a:hover { text-decoration: underline; color: #232323; padding: 3px 3px 3px 3px; font-weight: normal; font-size: 10pt;}
+
+
+/* Footer */
+.mGrid1 .footer { padding: 4px 2px; 
+            color: #232323;
+            background: #032359; 
+            font-size: 9pt;   
+            height: 7px;
+            font-family: "Roboto", "Arial";
+            border: solid 1px #E4E4E4;            
+            padding: 0px 3px 0px  3px;
+          }
+
+/**************************************************************************************************************/
+/* End Grids v 2.1 */
